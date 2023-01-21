@@ -1,0 +1,280 @@
+/* Pretend CSS variables! 
+AKA Color Scheme
+
+Accent - FCA311 (Orange Web)
+
+Light - C6D6E6 (Beau Blue)
+Medium - EFEFEF (Cultured)
+Dark - A9A9A9 (Silver Chalice)
+
+*/
+
+/* Global */
+* {
+    box-sizing: border-box;
+    margin:	0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    overflow: hidden;
+  }
+  
+  /* Lists, A and button elements */
+  
+  li, a, button {
+    text-decoration: none;
+  }
+  
+  /* HTML */
+  
+  html { 
+  
+    
+    
+  
+  }
+  
+  /* Body */
+   
+  body {
+    min-height: 320px;
+    min-width: 320px;
+  
+    background: url("../images/demo-2_crewedlaunchIR_cropped.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  
+  }
+  
+  /* Header */
+  
+  header {
+    background: #163564; /* Change header color (default= Independence #38405F) */
+  }
+  
+  /* Top Bar Wrapper */
+  
+  .navbar-top {
+    max-height: 10vh;
+    min-height: 2em;
+  
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  
+    box-shadow: 0 7px 20px 0 rgb(0 0 0 / 20%), 0 4px 10px 0 rgb(0 0 0 / 30%);
+      
+  }
+  
+  
+  
+  /* Navigation Icon Wrapper */
+  
+  .nav-icon {
+  
+       /* Change to set the icon image size.. seems to work best for now like this.. still issues tho*/
+      
+    min-width: 20px;
+    max-width: 15vw;
+  
+  }
+  
+  /* Navigation Icon Image */
+  
+  .nav-icon img {
+    object-fit: scale-down;
+  
+  
+    height: 100%;
+    width: 100%;
+      
+  }
+  
+  /* Navigation Menu */
+  
+  .navigation {
+  
+    display: flex;
+    padding: 2px 2px 0px 0px;
+  
+    width: 10em; /* Need to change this! */
+    overflow: visible;
+  
+  }
+  
+  /* Navigation Menu List */
+  
+  
+  .navigation ul {
+    display: inline-flex;
+    align-items: center;
+    justify-content: middle;
+  
+    width: 100%;
+    overflow: visible;
+      
+  }
+  
+  
+  /* Navigation Menu List Item */
+  
+  nav ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+  
+    padding: 0;
+    margin: 0;
+  
+    overflow: visible;
+  
+    height: 100%;
+    width: 50%;
+  
+  
+  
+  }
+  
+  /* Navigation Menu Link */
+  
+  nav ul li a {
+  
+    color: #FFF;
+    
+    font-weight: bold;
+  
+    overflow: visible;
+  
+  
+  }
+  nav ul li:hover {
+    background: #DE8A02; /* Hover Color for NavBar Link Box */
+  
+  }
+  /* Content Box */
+  
+  .content_box {
+  
+    background: rgba(255, 255, 255, 0.5);
+    min-height: 200px;
+    height: 30vmax;
+    width: auto;
+  
+    margin: 2% 2% 2% 2%;
+    padding: 2%;
+  
+      
+    background-size: cover;
+  
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  .content_wrapper {
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+    height:auto;
+    width: 100%;
+  
+  
+  
+    display: inline-block;
+    text-align: center;
+  
+  }
+  
+  .content_wrapper:hover {
+    background: rgba(255, 255, 255, 0.7);
+  
+  
+  }
+  
+  .content_wrapper h1 {
+    display: inline-flex;
+  
+    font-size: 24px;
+    font-size: 7vw;
+    font-weight: 100;
+  
+    color: #59546C;
+  
+      
+    text-align: center;
+  
+    padding: 5% 0 0 0;
+    
+  
+  }
+  
+  .content_box_title_N:hover {
+  
+    -webkit-transform:rotateY(180deg);
+    -moz-transform:rotateY(180deg);
+    -o-transform:rotateY(180deg);
+    -ms-transform:rotateY(180deg);
+    
+  }
+  
+  .content_wrapper h2 {
+    font-size: 24px;
+    font-size: 3vw;
+      
+    color: #59546C;
+  
+      
+    text-align: center;
+  
+  
+    padding: 3%;
+    margin: 1%;
+  
+  }
+  
+  .content_wrapper button {
+  
+    margin: 20px;
+    padding: 1% 2%;
+  
+  
+    width: 15%;
+    min-height: 30px;
+    min-width: 50px;
+    font-size: 18px;
+    font-size: 3vw;
+  
+    font-weight: bold;
+  
+    border: none;
+    border-radius: 5px;
+    background: #adadad
+  
+      
+  }
+  
+  .content_wrapper button:hover {
+    background: #DE8A02;
+    color: #fff;
+  
+  }
+  
+  
+  
+  
+  /* CSS Comments! 
+      
+  
+      position: relative;
+      left: 50%;
+      transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+      -webkit-transform: translate(-50%, 0);
+  
+  */ 
+  
